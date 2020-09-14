@@ -1,15 +1,25 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
 	color: #212121;
 	font-size: 16px;
 	font-family: "Tahoman", sans-serif;
-	background-color: #000;
 }
-
+.case{
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul{
+	margin-bottom: 20px;
+}
+p {
+	margin-bottom: 20px;
+}
 .grid{
 	display: flex;
 	flex-wrap: wrap;
@@ -17,6 +27,8 @@ body {
 	margin-right: -15px;
 }
 .grid .col {
+	color: #fff;
+	padding: 15px;
 	width: calc(100% / 2 - 30px);
 	margin-left: 15px;
 	margin-right: 15px;
